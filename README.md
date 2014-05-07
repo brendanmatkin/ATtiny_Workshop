@@ -38,7 +38,7 @@ Basic Instructions
 5. Select UNO COM port
 6. Select tools/programmer/Arduino as ISP
 7. Tools/Burn Bootloader (first time only or when changing frequency or BOD)
-7. Upload your code
+7. Upload your code (if you get an error that starts with: "avrdude: please define PAGEL and BS2" you can ignore it - It's possible to get rid of it but a huge pain and not necessary)
 8. Solder your circuit
 
 If you choose to include female header on your circuit, you can reprogram the ATtiny without removing it. Just be sure to disconnect the battery and power with 5V from UNO. 
@@ -47,7 +47,8 @@ Useful Links
 ------------
 * [arduino-tiny core](https://code.google.com/p/arduino-tiny/)
 * Alternate core and tutorial by MIT [high-low tech](http://highlowtech.org/?p=1695)
-* Great info on [AVR interrupts & sleep](http://www.gamon.com.au/interrupts)
+* Great info on [AVR interrupts & sleep](http://www.gammon.com.au/interrupts)
+* Specific to ATtiny - pin change interrupt, [down to 500nA!](http://www.gammon.com.au/forum/?id=11488&reply=9#reply9)
 * [Make Magazine ATtiny intro](http://youtu.be/30rPt802n1k)
 * Quick prototyping, forum, & modified libraries: [Digispark](http://digistump.com/products/1)
 * Watchdog timer-based sleep/interrupt: [H2OhNo! Tutorial](https://learn.sparkfun.com/tutorials/h2ohno/low-power-attiny)
