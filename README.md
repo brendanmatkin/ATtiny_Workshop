@@ -8,6 +8,7 @@ Locations
 ---------
  Previous:
 * [Eastern Bloc](http://www.easternbloc.ca) in Montreal, QC
+
  Coming soon:
 * [Beakerhead](http://beakerhead.org) in Calgary, AB
 * TBA in Lethbridge, AB
