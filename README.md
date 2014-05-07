@@ -6,10 +6,10 @@ ATtiny is a super cheap, low power, Arduino compatible microcontroller. This rep
 
 Locations
 ---------
- Previous:
+Previous:
 * [Eastern Bloc](http://www.easternbloc.ca) in Montreal, QC
 
- Coming soon:
+Coming soon:
 * [Beakerhead](http://beakerhead.org) in Calgary, AB
 * TBA in Lethbridge, AB
 
