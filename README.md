@@ -34,7 +34,7 @@ Basic Instructions
 ------------------
 1. Install the arduino-tiny core and copy relevant board information from "Prospective Boards.txt" to "boards.txt". Start with ATtiny84 @ 8MHz (internal, no BOD) and any others you want (probably also 1Mhz internal)
 2. Breadboard the ATtiny circuit according to schematic
-3. Upload file/examples/ArduinoISP to UNO. Connect ATtiny RESET, MOSI, MISO, SCK to UNO pins 10, 11, 12, 13 respectively. Connect VCC to UNO 5V and GND to GND and place a 10uF capacitor across RESET and GND on UNO.
+3. Upload file/examples/ArduinoISP to UNO. Connect ATtiny RESET, MOSI, MISO, SCK to UNO pins 10, 11, 12, 13 respectively. Connect VCC to UNO 3.3V and GND to GND and place a 10uF capacitor across RESET and GND on UNO.
 4. Choose tools/boards/ATtiny84 @ 8MHz (internal, no BOD) (or the chip you are using)
 5. Select UNO COM port
 6. Select tools/programmer/Arduino as ISP
@@ -42,7 +42,7 @@ Basic Instructions
 7. Upload your code (if you get an error that starts with: "avrdude: please define PAGEL and BS2" you can ignore it - It's possible to get rid of it but a huge pain and not necessary)
 8. Solder your circuit
 
-If you choose to include female header on your circuit, you can reprogram the ATtiny without removing it. Just be sure to disconnect the battery and power with 5V from UNO. 
+If you choose to include female header on your circuit, you can reprogram the ATtiny without removing it. Probably best to disconnect the battery and power with 3.3V from UNO. 
 
 Useful Links
 ------------
